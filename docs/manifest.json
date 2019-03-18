@@ -2,7 +2,7 @@
     "short_name": "PWA",
     "name": "Hello PWA",
     "display": "standalone",
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "icons": [
         {
             "src": "icon.png",

@@ -16,6 +16,10 @@ self.addEventListener('install', function(event) {
     );
 });
 
+self.addEventListener('activate', function(e) {
+    console.log('[ServiceWorker] Activate');
+  });
+
 // リソースフェッチ時のキャッシュロード処理
 self.addEventListener('fetch', function(event) {
     event.respondWith(
