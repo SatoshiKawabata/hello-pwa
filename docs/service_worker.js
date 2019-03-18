@@ -1,7 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'hello-pwa-caches';
 var urlsToCache = [
-    '/index.js',
+    '/hello-pwa/index.js',
 ];
 
 // インストール処理
