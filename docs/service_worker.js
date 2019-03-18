@@ -1,7 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'hello-pwa-caches';
 var urlsToCache = [
-    '/satoshikawabata.github.io/',
+    '/index.js',
 ];
 
 // インストール処理
